@@ -1,0 +1,23 @@
+$primaryColor: rgb(8, 8, 58);
+
+@mixin flx-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
+
+$width2: 992px;
+
+@mixin laptops {
+    @media (max-width: #{$width2}){
+        @content
+    }
+}

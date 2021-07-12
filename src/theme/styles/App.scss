@@ -1,0 +1,29 @@
+@import "../styles/global";
+
+.app {
+  height: 100vh;
+}
+.sections {
+  width: 100%;
+  height: calc(100vh - 80px);
+  position: relative;
+  top: 80px;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  @include mobile {
+    height: calc(100vh - 60px);
+    top: 60px;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  & > * {
+    width: 100vw;
+    height: calc(100vh - 80px);
+
+    @include mobile {
+      height: calc(100vh - 60px);
+      top: 60px;
+    }
+  }
+}

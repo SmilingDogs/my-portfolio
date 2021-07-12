@@ -1,0 +1,19 @@
+@import "../../theme/styles/global";
+
+li {
+    font-size: 15px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    @include mobile{
+      margin-right: 15px;
+      padding: 6px;
+    }
+
+    &.active {
+      background-color: $primaryColor;
+      color: #fff;
+    }
+  }

@@ -1,29 +1,23 @@
 export const sliderData = [
-    {
-      id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-    },
-    {
-      id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    },
-    {
-      id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
-  ];
+  {
+    id: "1",
+    icon: "./assets/mobile.png",
+    title: "Smart-Electronix",
+    desc: "Full scale e-commerce site using React + variety of libs + ready backend",
+    img: "https://res.cloudinary.com/blackie2020/image/upload/v1626173693/Smart_Electronix_-_Opera_2021-07-13_13.46.27_qygljp.png",
+  },
+  {
+    id: "2",
+    icon: "./assets/globe.png",
+    title: "Amazona shop",
+    desc: "Basic online store features with React+Redux,Router,etc + backend NodeJs",
+    img: "https://res.cloudinary.com/blackie2020/image/upload/v1626173693/React_App_-_Opera_2021-07-13_13.54.17_kzfchy.png",
+  },
+  {
+    id: "3",
+    icon: "./assets/writing.png",
+    title: "Indecision App",
+    desc: "Small React app mainly for training in passing props between components",
+    img: "https://res.cloudinary.com/blackie2020/image/upload/v1626173805/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2021-07-13_135644_ravhdu.png",
+  },
+];

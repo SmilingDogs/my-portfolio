@@ -14,6 +14,7 @@ const Projects = () => {
 
   return (
     <div className="projects" id="projects">
+      <h2 className="section-title">Projects</h2>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}

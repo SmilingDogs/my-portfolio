@@ -3,8 +3,8 @@ import "./Portfolio.scss";
 import { categories } from "./list";
 import PortfolioCategoryItem from "../PortfolioCategoryItem/PortfolioCategoryItem";
 import {
-  contentPortfolio,
-  designPortfolio,
+  
+  
   featuredPortfolio,
   mobilePortfolio,
   webPortfolio,
@@ -12,7 +12,7 @@ import {
 import PortfolioItem from "../PortfolioItem/PortfolioItem";
 
 const Portfolio = () => {
-  const [selected, setSelected] = useState("Featured");
+  const [selected, setSelected] = useState("React JS");
   const [portfolio, setPortfolio] = useState([]);
 
   const portfolioCategoryList = categories.map((i) => (
@@ -30,20 +30,14 @@ const Portfolio = () => {
 
   useEffect(() => {
     switch (selected) {
-      case "Featured":
+      case "React JS":
         setPortfolio(featuredPortfolio);
         break;
-      case "Web App":
+      case "Mini Projects":
         setPortfolio(webPortfolio);
         break;
       case "Mobile App":
         setPortfolio(mobilePortfolio);
-        break;
-      case "Design":
-        setPortfolio(designPortfolio);
-        break;
-      case "Content":
-        setPortfolio(contentPortfolio);
         break;
       default:
         setPortfolio(featuredPortfolio);

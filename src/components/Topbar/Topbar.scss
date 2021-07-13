@@ -84,10 +84,17 @@
       @include mobile {
         display: none;
       }
-
+      @media (min-width: 769px) and (max-width: 960px) {
+        display: none;
+      }
       span {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
+
+        @media (min-width: 769px) and (max-width: 960px) {
+          font-size: 14px;
+          font-weight: 500;
+        }
       }
     }
   }

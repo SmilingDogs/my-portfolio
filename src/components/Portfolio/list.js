@@ -1,22 +1,14 @@
 export const categories = [
-    {
-      id: "featured",
-      title: "Featured",
-    },
-    {
-      id: "web",
-      title: "Web App",
-    },
-    {
-      id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    },
-  ];
+  {
+    id: "featured",
+    title: "React JS",
+  },
+  {
+    id: "web",
+    title: "Mini Projects",
+  },
+  {
+    id: "mobile",
+    title: "Mobile App",
+  },
+];

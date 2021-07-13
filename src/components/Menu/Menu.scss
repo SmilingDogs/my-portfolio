@@ -39,4 +39,28 @@
         }
     }
   }
+  .menu-contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    width: 80%;
+
+    @media (min-width: 961px) {
+      display: none;
+    }
+
+    li {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      
+      &:hover {
+        font-weight: 600;
+      }
+  }
+
+  }
 }

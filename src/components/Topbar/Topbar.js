@@ -20,6 +20,10 @@ const Topbar = ({open, changeStyle}) => {
             <Icons type="mail" filled={open ? true : false} />
             <span>a.kudr74@gmail.com</span>
           </div>
+          <div className="itemContainer">
+            <Icons type="telegram" filled={open ? true : false} />
+            <span>Smiling Dog</span>
+          </div>
         </div>
         <div className="right">
           <div className="burger" onClick={() => changeStyle(!open)}>

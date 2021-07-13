@@ -87,7 +87,7 @@ export const featuredPortfolio = [
     {
       id: 2,
       title: "Mobile Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+      img: "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
       link: "#"
     },
     {

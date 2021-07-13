@@ -11,14 +11,14 @@ const Contacts = () => {
         <form
           name="contact"
           method="post"
-          data-netlify="true"
-          data-netlify-recaptcha="true"
+          
+         
         >
           <input type="hidden" name="form-name" value="contact" />
           <input type="text" placeholder="Email" name="email" />
           <textarea placeholder="Your Message..." name="message"></textarea>
           <input type="file" name="file" placeholder="Upload file" />
-          <div data-netlify-recaptcha="true"></div>
+         
           <button type="submit">Send</button>
         </form>
       </div>

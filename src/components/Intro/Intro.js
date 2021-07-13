@@ -13,7 +13,7 @@ const Intro = () => {
       backDelay: 1500,
       backSpeed:60,
       cursorChar: "_",
-      strings: ["Student", "Developer", "Enthusiast"],
+      strings: ["HTML", "CSS/SCSS", "Javascript", "React"],
     });
   }, [])
 
@@ -28,7 +28,7 @@ const Intro = () => {
         <div className="wrapper">
           <h2>Hi there! I'm</h2>
           <h1>Oleksiy Kudryashov</h1>
-          <h3>Front-end <span ref={textRef}>Developer</span></h3>
+          <h3>Front-end: <span ref={textRef}></span></h3>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="arrow" />

@@ -4,7 +4,7 @@ const Contacts = () => {
   return (
     <div className="contacts" id="contacts">
       <div className="left">
-        <img src="assets/shake.svg" alt="hands" />
+        <img src="assets/shake.svg" alt="shake" />
       </div>
       <div className="right">
         <h2>Contacts</h2>

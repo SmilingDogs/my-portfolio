@@ -43,9 +43,9 @@ const Portfolio = () => {
   
   return (
     <div className="portfolio" id="portfolio">
-      <h2 data-aos="fade-left">Portfolio</h2>
+      <h2>Portfolio</h2>
       <ul>{portfolioCategoryList}</ul>
-      <div data-aos="fade-right" className="container">{portfolioList}</div>
+      <div className="container">{portfolioList}</div>
     </div>
   );
 };

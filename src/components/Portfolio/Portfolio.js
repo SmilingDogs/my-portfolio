@@ -2,14 +2,9 @@ import { useEffect, useState } from "react";
 import "./Portfolio.scss";
 import { categories } from "./list";
 import PortfolioCategoryItem from "../PortfolioCategoryItem/PortfolioCategoryItem";
-import {
-  
-  
-  featuredPortfolio,
-  mobilePortfolio,
-  webPortfolio,
-} from "./data";
+import { featuredPortfolio, mobilePortfolio, webPortfolio } from "./data";
 import PortfolioItem from "../PortfolioItem/PortfolioItem";
+
 
 const Portfolio = () => {
   const [selected, setSelected] = useState("React JS");
@@ -29,6 +24,7 @@ const Portfolio = () => {
   ));
 
   useEffect(() => {
+   
     switch (selected) {
       case "React JS":
         setPortfolio(featuredPortfolio);
@@ -44,11 +40,12 @@ const Portfolio = () => {
     }
   }, [selected]);
 
+  
   return (
     <div className="portfolio" id="portfolio">
-      <h2>Portfolio</h2>
+      <h2 data-aos="fade-left">Portfolio</h2>
       <ul>{portfolioCategoryList}</ul>
-      <div className="container">{portfolioList}</div>
+      <div data-aos="fade-right" className="container">{portfolioList}</div>
     </div>
   );
 };

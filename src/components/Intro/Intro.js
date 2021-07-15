@@ -22,7 +22,8 @@ const Intro = () => {
       <Spring
           from={{ opacity: 0, marginLeft: -1200 }}
           to={{ opacity: 1, marginLeft: 0 }}
-          config={{ duration: 500 }}
+          config={{ duration: 800 }}
+          
         >
           {(props) => (
             <animated.div className="img-container" style={props}>
@@ -35,7 +36,7 @@ const Intro = () => {
         <Spring
           from={{ opacity: 0, transform: "translateX(800px)" }}
           to={{ opacity: 1, transform: "translateX(0)" }}
-          config={{ duration: 500 }}
+          config={{ duration: 800 }}
         >
           {(props) => (
             <animated.div className="wrapper" style={props}>

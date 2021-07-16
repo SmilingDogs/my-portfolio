@@ -12,7 +12,7 @@ const Intro = () => {
       backDelay: 1500,
       backSpeed: 60,
       cursorChar: "_",
-      strings: ["HTML", "CSS/SCSS", "Javascript", "React"],
+      strings: ["HTML", "CSS/SCSS", "Adaptive", "JavaScript", "AJAX", "ReactJS", "git"],
     });
   }, []);
 

@@ -53,9 +53,9 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Railways",
-      img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/rails-1200_plvo1c.png",
-      link: "https://smilingdogs.github.io/Railways/"
+      title: "Doctor Visit Planning",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1626441286/Doctor_Visits_-_Opera_2021-07-16_16.10.29_rbmrgt.png",
+      link: "https://smilingdogs.github.io/doctor_visit/"
     },
     {
       id: 4,
@@ -74,6 +74,12 @@ export const featuredPortfolio = [
       title: "Star Wars intro",
       img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/star-wars_l5p4mv.png",
       link: "https://smilingdogs.github.io/Star-Wars-text/"
+    },
+    {
+      id: 7,
+      title: "Railways",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/rails-1200_plvo1c.png",
+      link: "https://smilingdogs.github.io/Railways/"
     },
   ];
 

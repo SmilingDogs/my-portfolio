@@ -79,7 +79,7 @@ export const featuredPortfolio = [
       id: 7,
       title: "Railways",
       img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/rails-1200_plvo1c.png",
-      link: "https://smilingdogs.github.io/Railways/"
+      link: "https://smilingdogs.github.io/Railways2/"
     },
   ];
 
@@ -153,7 +153,7 @@ export const featuredPortfolio = [
   //     title: "Design Keser Web Design",
   //     img:
   //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-  //     link: "#"  
+  //     link: "#"
   //   },
   //   {
   //     id: 6,

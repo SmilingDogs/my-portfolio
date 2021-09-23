@@ -12,7 +12,7 @@ const Intro = () => {
       backDelay: 1500,
       backSpeed: 60,
       cursorChar: "_",
-      strings: ["HTML", "CSS/SCSS", "Adaptive", "JavaScript", "AJAX", "ReactJS", "git"],
+      strings: ["HTML5", "CSS3/SCSS", "JavaScript/ES6", "JEST", "React-Redux", "GULP", "NodeJS-Express", "Git"],
     });
   }, []);
 
@@ -23,7 +23,7 @@ const Intro = () => {
           from={{ opacity: 0, marginLeft: -1200 }}
           to={{ opacity: 1, marginLeft: 0 }}
           config={{ duration: 800 }}
-          
+
         >
           {(props) => (
             <animated.div className="img-container" style={props}>

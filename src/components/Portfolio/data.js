@@ -65,15 +65,15 @@ export const featuredPortfolio = [
     },
     {
       id: 5,
-      title: "Day & Night, click the Moon!",
-      img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/day-night_qoxr5e.png",
-      link: "https://smilingdogs.github.io/Day-Night/"
+      title: "Creative slider",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1632429793/Creative_slider_vnv7m8.png",
+      link: "https://smilingdogs.github.io/cool-slider/"
     },
     {
       id: 6,
-      title: "Star Wars intro",
-      img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/star-wars_l5p4mv.png",
-      link: "https://smilingdogs.github.io/Star-Wars-text/"
+      title: "sliding-cards",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1632429962/sliding-cards._cia4tq.png",
+      link: "https://smilingdogs.github.io/sliding-cards/"
     },
     {
       id: 7,
@@ -81,6 +81,19 @@ export const featuredPortfolio = [
       img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/rails-1200_plvo1c.png",
       link: "https://smilingdogs.github.io/Railways2/"
     },
+    {
+      id: 8,
+      title: "Day & Night, click the Moon!",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/day-night_qoxr5e.png",
+      link: "https://smilingdogs.github.io/Day-Night/"
+    },
+    {
+      id: 9,
+      title: "Star Wars intro",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/star-wars_l5p4mv.png",
+      link: "https://smilingdogs.github.io/Star-Wars-text/"
+    },
+
   ];
 
   export const mobilePortfolio = [

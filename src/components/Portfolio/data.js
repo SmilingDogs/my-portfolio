@@ -77,18 +77,30 @@ export const featuredPortfolio = [
     },
     {
       id: 7,
+      title: "drag-n-drop",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1633011596/trololo_oxiakv.png",
+      link: "https://smilingdogs.github.io/drag-and-drop-boards/"
+    },
+    {
+      id: 8,
       title: "Railways",
       img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/rails-1200_plvo1c.png",
       link: "https://smilingdogs.github.io/Railways2/"
     },
     {
-      id: 8,
+      id: 9,
       title: "Day & Night, click the Moon!",
       img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/day-night_qoxr5e.png",
       link: "https://smilingdogs.github.io/Day-Night/"
     },
     {
-      id: 9,
+      id: 10,
+      title: "Quick aim game",
+      img: "https://res.cloudinary.com/blackie2020/image/upload/v1633010986/Aim_Training_-_Google_Chrome_2021-09-30_16.41.30_qvidab.png",
+      link: "https://smilingdogs.github.io/simple-game/"
+    },
+    {
+      id: 11,
       title: "Star Wars intro",
       img: "https://res.cloudinary.com/blackie2020/image/upload/v1626172485/star-wars_l5p4mv.png",
       link: "https://smilingdogs.github.io/Star-Wars-text/"

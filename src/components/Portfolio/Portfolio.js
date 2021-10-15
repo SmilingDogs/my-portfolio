@@ -20,11 +20,11 @@ const Portfolio = () => {
   ));
 
   const portfolioList = portfolio.map((i) => (
-    <PortfolioItem key={i.id} item={i} />
+    <PortfolioItem key={i.id} {...i} />
   ));
 
   useEffect(() => {
-   
+
     switch (selected) {
       case "React JS":
         setPortfolio(featuredPortfolio);
@@ -40,7 +40,7 @@ const Portfolio = () => {
     }
   }, [selected]);
 
-  
+
   return (
     <div className="portfolio" id="portfolio">
       <h2>Portfolio</h2>

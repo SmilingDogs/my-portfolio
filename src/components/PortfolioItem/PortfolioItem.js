@@ -1,11 +1,11 @@
 import "./PortfolioItem.scss";
 
-const PortfolioItem = ({ item }) => {
+const PortfolioItem = ({ title, img, link }) => {
   return (
-    <a href={item.link} target="_blank" rel="noreferrer">
+    <a href={link} target="_blank" rel="noreferrer">
       <div className="item">
-        <img src={item.img} alt={item.title} />
-        <h3>{item.title}</h3>
+        <img src={img} alt={title} />
+        <h3>{title}</h3>
       </div>
     </a>
   );

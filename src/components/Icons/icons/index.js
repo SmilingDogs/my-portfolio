@@ -1,4 +1,5 @@
-export { person } from "./person";
-export { mail } from "./mail";
 export { arrow } from "./arrow";
-export { telegram} from "./telegram";
+export { mail } from "./mail";
+export { person } from "./person";
+export { telegram } from "./telegram";
+export { whatsapp } from "./whatsapp";

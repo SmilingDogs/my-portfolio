@@ -1,10 +1,8 @@
-import React from "react";
-
 export const telegram = (
   color = "rgb(8, 8, 58)",
   filled = false,
   width = 32,
-  height = 32
+  height = 32,
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

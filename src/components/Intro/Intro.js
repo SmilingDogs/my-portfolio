@@ -1,6 +1,6 @@
+import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import { Spring, animated } from "react-spring";
-import { init } from "ityped";
 import "./Intro.scss";
 
 const Intro = () => {
@@ -12,18 +12,26 @@ const Intro = () => {
       backDelay: 1500,
       backSpeed: 60,
       cursorChar: "_",
-      strings: ["HTML5", "CSS3/SCSS", "JavaScript/ES6", "JEST", "React-Redux", "GULP", "NodeJS-Express", "Git"],
+      strings: [
+        "HTML5",
+        "CSS3/SCSS",
+        "Javascript/ES6",
+        "ReactJS",
+        "React-Native",
+        "GULP, Webpack",
+        "NodeJS-Express",
+        "Git",
+      ],
     });
   }, []);
 
   return (
     <div className="intro" id="intro">
       <div className="left">
-      <Spring
+        <Spring
           from={{ opacity: 0, marginLeft: -1200 }}
           to={{ opacity: 1, marginLeft: 0 }}
           config={{ duration: 800 }}
-
         >
           {(props) => (
             <animated.div className="img-container" style={props}>
@@ -42,7 +50,9 @@ const Intro = () => {
             <animated.div className="wrapper" style={props}>
               <h2>Hi there! I'm</h2>
               <h1>Oleksiy Kudryashov</h1>
-              <h3>Front-end: <span ref={textRef}></span></h3>
+              <h3>
+                Tech-stack: <span ref={textRef}></span>
+              </h3>
             </animated.div>
           )}
         </Spring>

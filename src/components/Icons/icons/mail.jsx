@@ -1,10 +1,8 @@
-import React from "react";
-
 export const mail = (
   color = "rgb(8, 8, 58)",
   filled = false,
   width = 30,
-  height = 30
+  height = 30,
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
